@@ -306,10 +306,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-menu {
     float: right;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
 }
 
 .nav {
@@ -328,12 +324,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-link {
     display: block;
     padding: var(--font-size-base) 0;
 }
 
-.nav .nav-item .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
